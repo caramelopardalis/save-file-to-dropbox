@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Save file to Dropbox",
+  "version": "1.0",
+  "description": "Save file to dropbox from context menu, and expand subfolders on mouse hover.",
+  "icons": {
+    "48": "icons/border-48.png",
+    "96": "icons/border-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*"],
+      "js": ["index.js"]
+    }
+  ]
+}

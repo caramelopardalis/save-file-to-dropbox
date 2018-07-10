@@ -1,0 +1,6 @@
+{
+    "sftd-root": {
+        "message": "Dropbox に保存する",
+        "description": "コンテキストメニューのタイトルです。"
+    }
+}
